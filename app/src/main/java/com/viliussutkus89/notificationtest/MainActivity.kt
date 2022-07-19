@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
             return NotificationCompat.Builder(context, channelId)
                 .setContentTitle(title)
                 .setTicker(title)
-                .setSmallIcon(R.mipmap.ic_launcher_round)
+                .setSmallIcon(R.drawable.ic_baseline_escalator_24)
                 .setOngoing(true)
                 .build()
         }
